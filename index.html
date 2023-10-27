@@ -10,246 +10,355 @@
     <link rel="icon" href="./imagenes de deezer/deezer.png">
 </head>
 <body>
-    <header><!--header-->
-        <nav><!--es el navbar que contiene navegacion-->
-            <a href="#">Ofertas</a><!--Ofertas-->
-            <a href="#">Características</a><!--Caracteristicas-->
-            <a href="#">Música</a><!--Musica-->
-            <a href="#">Iniciar Seción</a><!--Iniciar Secion-->
-            <a href="#">Registrate</a><!--Registrate-->
-        </nav>
-        <div>
-            <img src="./imagenes de deezer/deezer.png" alt="logo Deezer"><!--logo y nombre de la pagina-->
-            <p>deezer</p>
-        </div>
+    <header class="header">
+         <div class="header__container-logo"><!--logo y nombre de la pagina-->
+            <img class="header__logo" src="./imagenes de deezer/dezzerlogo.png" alt="./imagenes de deezer/deezer.png">
+            <p class="header__name-logo">deezer</p>
+         </div>
+         
+         <div class="header__container-nav">
+            <nav class="header__nav"><!--es el navbar que contiene navegacion-->
+                <a class="header__nav-oferts" href="#">Ofertas</a><!--Ofertas-->
+                <a class="header__nav-Caracteristics" href="#">Características</a><!--Caracteristicas-->
+                <a class="header__nav-music" href="#">Música</a><!--Musica-->
+                <a class="header__nav-login" href="#">Iniciar Seción</a><!--Iniciar Secion-->
+            </nav>
+         </div> 
+         <div class="header__nav">
+            <a class="header__nav-singup" href="#">Registrate</a><!--Registrate-->
+         </div>               
     </header>
 
-    <main><!--main-->
-        <div><!--parrafo-->
-            <h1>
-                <p>
-                    Para empezar a disfrutar de la música solo tienes que elegir una oferta
-                </p>
+    <main class="main"><!--main-->
+        <div class="main__container-music"><!--parrafo-->
+            <h1 class="main__paragrhap">
+                Para empezar a disfrutar de la música solo tienes que elegir una oferta.
             </h1>
         </div>
-        <div><!--signo de exclamacion en naranja y descripcion -->
-            <img src="imagenes de deezer/signo-de-exclamacion.png" alt="exclamacion">
-            <h2>
-                <p>
-                    Deezer Free no está disponible en tu país. Por favor, elige una oferta y empieza a escuchar.
-                </p>
+        <div class="container__exclamation"><!--signo de exclamacion en naranja y descripcion -->
+            <img class="container__exclamation-img" src="imagenes de deezer/signo-de-exclamacion.png" alt="exclamacion">
+            <h2 class="container__exclamation-text">     
+                Deezer Free no está disponible en tu país. Por favor, elige una oferta y empieza a escuchar.
             </h2>
         </div>
-        <div><!--imagen de campana y descripcion-->
-            <img src="imagenes de deezer/campana.png" alt="campana">
-            <h2>
-                <p>
-                    Una prueba sin estrés
-                </p>
+        <div class="container__campaign"><!--imagen de campana y descripcion-->
+            <img class="container__campaign-img" src="imagenes de deezer/campana.png" alt="campana">
+            <h2 class="container__campaign-proof">
+                Una prueba sin estrés
             </h2>
-            <h3>
-                <p>
-                    Te lo recordaremos 7 días antes de que termine tu prueba.
-                </p>
+            <h3 class="container__campaign-text">
+                Te lo recordaremos 7 días antes de que termine tu prueba.
             </h3>
-        </div>  
-        <section><!--caja de Premium-->
-            <h2>
+        </div>
+
+        <section class="container__premium"><!--caja de Premium-->
+            <h2 class="container__premium-text">
                 Premium
             </h2>
-            <ul>
-                <li>
+            <ul class="container__premium-box">
+                <li class="container__premium-box-text">
                     Selecciona y reproduce cualquier canción sin anuncios, descárgate tus favoritas y escúchalas sin conexión.
                 </li>
-                <li>
+                <li class="container__premium-box-text-2">
                     Escucha contenidos en todos tus dispositivos y disfruta de sonido de alta fidelidad.
                 </li>
-                <li>
+                <li class="container__premium-botton">
                     <button>PRUÉBALO GRATIS</button><!--Boton-->
                 </li>
-                <li>
+                <li class="container__premium-box-text-3">
                     1 mes gratis <!--el cursor cambia a mano-->
                     luego, Arg$429,00/mes.
                 </li>
-                <li>
+                <li class="container_premium-box-text-4">
                     Sin compromiso, puedes cancelar en cualquier momento.
                 </li>
-                <h6>
+                <h6 class="box-premium-small-title">
                     Mas informacion<!--Subrayado-->
                 </h6>
             </ul>
         </section>
 
-        <div><!--Premium anual-->
-            <h2>
+        <div class="container__anual"><!--Premium anual-->
+            <h2 class="container__anual-tittle">
                 Premium Anual<!--cursor se hace mamo-->
             </h2>
             <ul>
-                <li>
+                <li class="container__anual-text">
                     Todas las ventajas de Deezer Premium con un precio anual con descuento.
                 </li>
-                <li>
+                <li class="container__anual-botton">
                     <button>EMPEZAR UNA PRUEBA GRATUITA DE 1 Mes</button><!--Boton y cursor mano-->
                 </li>
-                <li>
+                <li class="container__anual-discount">
                     25 % de descuento cada año
                 </li>
-                <li>
-                    Arg$5.148,00/año Arg$3.859,00/año<!--5 mil tachado-->
+                <li class="container__anual-text-2">
+                    <s>Arg$5.148,00/año </s> Arg$3.859,00/año<!--5 mil tachado-->
                 </li>
-                <h5>
+                <h5 class="container__anual-text-oneyear">
                     Compromiso de 1 año.
                 </h5>
-                <h6>
+                <h6 class="container__anual-text-information">
                     Mas informacion<!--Subrayado-->
                 </h6>
             </ul>
         </div>
-        <div><!--student-->
-            <h2>
+        <div class="container__box-student"><!--student-->
+            <h2 class="container__box-student-tittle">
                 Student<!--cursor se hace mamo-->
             </h2>
-            <ul>
-                <li>
+            <ul class="container__box-student-list">
+                <li class="container__box-student-advantages">
                     Todas las ventajas de Deezer Premium a mitad de precio para que disfrutes al máximo de la vida de estudiante.
                 </li>
-                <li>
+                <li class="container__box-student-advantages">
                     Escucha contenidos en todos tus dispositivos y disfruta de sonido de alta fidelidad.
                 </li>
-                <li>
+                <li class="container__box-student-botton">
                     <button>PRUEBALO GRATIS</button><!--Boton y cursor mano-->
                 </li>                
-                <li>
-                    1 mes gratis<!--letra mas grande--> 
+                <li class="container__box-student-advantages">
+                    <p class="container__box-student-letter">1 mes gratis</p><!--letra mas grande--> 
                     luego, Arg$209,00/mes. <!--cursor se hace mano cuando paso.-->
                 </li>
-                <h5>
+                <h5 class="container__box-student-advantages">
                     Sin compromiso puedes cancelar en cualquier momento
                 </h5>
-                <h6>
+                <h6 class="container__box-student-underline">
                     Mas informacion<!--Subrayado-->
                 </h6>
             </ul>            
         </div>
-        <div><!--family-->
-            <h2>
+        <div class="Family"><!--family-->
+            <h2 class="Family__tittle">
                 family<!--cursor se hace mamo-->
             </h2>
-            <ul>
+            <ul class="Family__tittle-music">
                 <li>
                     Música para todos.
                 </li>
-                <li>
+                <li class="Family__tittle-music">
                     Consigue 6 cuentas individuales con todas las ventajas de Deezer Premium, incluido el sonido de alta fidelidad.
                 </li>
-                <li>
+                <li class="Family__tittle-music">
                     Escucha simultáneamente en varios dispositivos.
                 </li>
+                <li class="Family__tittle-botton">
                     <button>PRUEBALO GRATIS</button><!--Boton y cursor mano-->
-                <li>
+                </li>
+                <li class="Family__tittle-music">
                     1 mes gratis
                     luego, Arg$719,00/mes.
-                </li>            
-                
-                <h5>
+                </li>         
+                <h5 class="Family__tittle-music">
                     Sin compromiso puedes cancelar en cualquier momento
                 </h5>
-                <h6>
+                <h6 class="Family__tittle-underline">
                     Mas informacion<!--Subrayado-->
                 </h6>
             </ul>                  
         </div>
-        <div>           
-                <H2>
+        <div class="Family__anual">           
+                <H2 class="Family__anual-tittle">
                     Family Anual
                 </H2>
-                <ul>
-                <li>
+                <ul class="Family__anual-list">
+                <li class="Family__anual-deezer-fam">
                     Todas las ventajas de Deezer Family con un precio anual con descuento.
                 </li>
-                <li>
+                <li class="Family__anual-deezer-botton">
                     <button>EMPEZAR UNA PRUEBA GRATUITA DE 1 MES</button><!--boton-->
                 </li>
-                <li>
+                <li  class="Family__anual-deezer-fam">
                     8 % de descuento cada año
                 </li>
-                <li>
-                    Arg$8.628,00/año Arg$7.909,00/año<!--8 mil tachado-->
+                <li  class="Family__anual-deezer-fam">
+                    <s>Arg$8.628,00/año</s> Arg$7.909,00/año<!--8 mil tachado-->
                 </li>
-                <p>
+                <p class="Family__anual-deezer-compromise">
                     Compromiso de 1 año.
                 </p>
                 </li>
-                <li>
+                <li class="Family__anual-deezer-fam">
                     Mas informacion. 
                 </li>
             </ul>
         </div>
     </main>
-    <section><!--descriptions y las gifs cards-->
-        <img src="./imagenes de deezer/gift-cards.ade839af948cff1aec9c.png" alt="imagenes gift cards">
-        <h2>
+    <section class="container__discount"><!--descriptions y las gifs cards-->
+        <img class="container__discount-img" src="./imagenes de deezer/gift-cards.ade839af948cff1aec9c.png" alt="imagenes gift cards">
+        <h2 class="container__discount-gift">
             Tarjeta Regalo
         </h2>
-        <h3>
+        <h3 class="container__discount">
             ¿Que puede ser mejor que disfrutar de música ilimitada durante 3,6 o 12 meses?
         </h3>
-        <h4>
-            Conseguir una tarjeta de Regalo<!--boton en blanco con letras negras-->
+        <h4 class="container__discount-botton">
+            <a href="#">Conseguir una tarjeta de Regalo</a><!--boton en blanco con letras negras-->
         </h4>
-        <h5>
+        <h5 class="container__discount-activate">
             activar mi tarjeta regalo<!--mayuscula-->
         </h5>
     </section>
-    <section><!--descripcion con letra chica-->
-        <p>
+    <section class="container__legal"><!--descripcion con letra chica-->
+        <p class="container__legal-paragraph">
             Ofertas no vinculantes, podrás cancelar tu suscripción en cualquier momento. Estas ofertas solo están disponibles para los usuarios que no estén ni hayan estado suscritos a Deezer, que no se hayan beneficiado de ninguna promoción previa de Deezer y que no hayan disfrutado de una prueba gratuita de ninguna suscripción de Deezer en ningún momento. Estas ofertas no son acumulables con ninguna otra oferta. Solo es posible beneficiarse de estas ofertas una vez y son válidas para un solo usuario.
         </p>
     </section>
-    <footer><!--footer-->
-        <section>
-            <button>
+    <footer class="container__footer"><!--footer-->
+        <section class="container__footer-section">
+            <button class="container__footer-botton-apple">
                 <a href="#">
-                    <img src="./imagenes de deezer/descarga.png" alt="App Store">
+                    <img class="container__footer-img-apple"src="./imagenes de deezer/descarga.png" alt="App Store">
                 </a>                
             </button>            
             <br>
-            <button>
+            <button class="container__footer-botton-gplay">
                 <a href="#">
-                    <img src="./imagenes de deezer/googleplay.png" alt="Google Play">
+                    <img class="container__footer-img-gplay"src="./imagenes de deezer/googleplay.png" alt="Google Play">
                 </a>                
             </button>      
         </section>
-        <div>
-            <ul>
-                <li>
+        <div class="container__colum">
+            <ul  class="container__colum-one">
+                <li  class="container__colum-one-d">
                     <a href="#">Deezer</a>
                 </li>
-                <li>
+                <li  class="container__colum-one-r">
                     <a href="#">Reseñas</a>
                 </li>  
-                <li>
+                <li  class="container__colum-one-D">
                     <a href="#">Dispositivos</a>
                 </li>  
-                <li>
+                <li class="container__colum-one-O">
                     <a href="#">Descargate la aplicacion para ordenador</a>
                 </li>  
-                <li>
+                <li class="container__colum-one-gift">
                     <a href="#">Tarjeta de Regalo</a>
                 </li>  
-                <li>
+                <li class="container__colum-one-help">
                     <a href="#">Ayuda</a>
                 </li>  
-                <li>
+                <li class="container__colum-one-opinions">
                     <a href="#">Community y opiniones</a>
                 </li>  
-                <li>
+                <li class="container__colum-one-blog">
                     <a href="#">Blog</a>
                 </li>          
             </ul>
         </div>
-
-        
+        <div class="container__colum-one">
+            <ul class="container__colum-one-ul">
+                <li class="container__colum-Caracteristic">
+                    <a href="#">Caracteristicas</a>
+                </li>
+                <li class="container__colum-flow">
+                    <a href="#">Flow</a>
+                </li>  
+                <li class="container__colum-id">
+                    <a href="#">Identifica Canciones</a>
+                </li>  
+                <li class="container__colum-trasnf">
+                    <a href="#">Transfiere tu biblioteca</a>
+                </li>  
+                <li class="container__colum-letters">
+                    <a href="#">Letras</a>
+                </li>  
+                <li class="container__colum-off">
+                    <a href="#">Reproduccion sin conexion</a>
+                </li>  
+                <li class="container__colum-hifi">
+                    <a href="#">Alta fidelidad(Hi-FI)</a>
+                </li>         
+            </ul>
+        </div>
+        <div class="container__colum-exploring">
+            <ul class="container__colum-ul">
+                <li class="container__colum-ul-exploring">
+                    <a href="#">Explorar</a>
+                </li>
+                <li class="container__colum-ul-charts">
+                    <a href="#">Charts</a>
+                </li>  
+                <li class="container__colum-ul-launch">
+                    <a href="#">Lanzamiento más popular</a>
+                </li>  
+                <li class="container__colum-ul-new">
+                    <a href="#">Nuevos lanzamientos</a>
+                </li>  
+                <li class="container__colum-ul-radios">
+                    <a href="#">Radios</a>
+                </li>  
+                <li class="container__colum-ul-pod">
+                    <a href="#">Podcast</a>
+                </li>  
+                <li class="container__colum-ul-moments">
+                    <a href="#">Musica para todos los momentos</a>
+                </li>  
+                <li class="container__colum-ul-zen">
+                    <a href="#">Zen by Deezer</a>
+                </li>          
+            </ul>
+        </div>
+        <div class="container__colum-three">
+            <ul class="container__colum-three-ul">
+                <li class="container__colum-three-who">
+                    <a href="#">¿Quienes Somos?</a>
+                </li>
+                <li class="container__colum-three-inv">
+                    <a href="#">Inversores</a>
+                </li>  
+                <li class="container__colum-three-brand">
+                    <a href="#">Brand Partership</a>
+                </li>  
+                <li class="container__colum-three-musicians">
+                    <a href="#">Músicos y podcasters</a>
+                </li>  
+                <li class="container__colum-three-devs">
+                    <a href="#">Desarrolladores</a>
+                </li>  
+                <li class="container__colum-three-press">
+                    <a href="#">Prensa</a>
+                </li>  
+                <li class="container__colum-three-jobs">
+                    <a href="#">Ofertas de empleo</a>
+                </li>          
+            </ul>
+        </div>
+        <div class="container__colum-four">
+            <ul class="container__colum-four-ul">
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+                <li>
+                    <a href="#">Condiciones generales de uso</a>
+                </li>  
+                <li>
+                    <a href="#">Politica de Privacidad</a>
+                </li>  
+                <li>
+                    <a href="#">Cookies</a>
+                </li>  
+                <li>
+                    <a href="#">Open Sources Software Report(EN)</a>
+                </li>  
+                <li>
+                    <a href="#">Vulnerabilities Disclosure Privacy (EN)</a>
+                </li>  
+                <li>
+                    <a href="#">Digital Services Act</a>
+                </li>         
+            </ul>
+        </div>
+        <div class="container__socialmedia">
+            <a href="#"><img src="./imagenes de deezer/facebook.png" alt="./imagenes de deezer/facebook.png"></a> 
+            <a href="#"><img src="./imagenes de deezer/twiteer.png" alt="./imagenes de deezer/twiteer.png"></a> 
+            <a href="#"><img src="./imagenes de deezer/instagram.png" alt="./imagenes de deezer/instagram.png"></a> 
+            <a href="#"><img src="./imagenes de deezer/youtube.png" alt="./imagenes de deezer/youtube.png"></a>
+        </div>
+        <div class="container__socialmedia-img">
+            <img class="container__socialmedia-logo" src="./imagenes de deezer/dezzerlogo.png" alt="./imagenes de deezer/dezzerlogo.png">
+        </div>       
 
     </footer>
      
