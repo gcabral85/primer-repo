@@ -8,33 +8,40 @@
     <title>Ofertas Deezer | Compara los precios de las ofertas Deezer</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./imagenes de deezer/deezer.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Mukta&family=Oxygen:wght@700&family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
 </head>
 <body>
     <header class="header">
-         <div class="header__container-logo"><!--logo y nombre de la pagina-->
-            <img class="header__logo" src="./imagenes de deezer/dezzerlogo.png" alt="./imagenes de deezer/deezer.png">
-            <p class="header__name-logo">deezer</p>
-         </div>
-         
-         <div class="header__container-nav">
-            <nav class="header__nav"><!--es el navbar que contiene navegacion-->
-                <a class="header__nav-oferts" href="#">Ofertas</a><!--Ofertas-->
-                <a class="header__nav-Caracteristics" href="#">Características</a><!--Caracteristicas-->
-                <a class="header__nav-music" href="#">Música</a><!--Musica-->
-                <a class="header__nav-login" href="#">Iniciar Seción</a><!--Iniciar Secion-->
+        <div class="header__container-logo"><!--logo y nombre de la pagina-->
+            <img class="header__logo" src="./imagenes de deezer/deezer.png" alt="./imagenes de deezer/deezer.png">
+            <h1 class="Tittle">Deezer</h1> 
+        </div>
+        <div class="header__container-user-mobile">
+            <i class="bi bi-list"></i>
+        </div>        
+        <div class="header__container">
+            <nav class="header__nav-link"><!--es el navbar que contiene navegacion-->
+                <a class="header__nav-link" href="#"><span>Ofertas</span></a><!--Ofertas-->
+                <a class="header__nav-link" href="#">Características</a><!--Caracteristicas-->
+                <a class="header__nav-link" href="#">Música</a><!--Musica-->
+                <a class="header__nav-link-in" href="#"><button>Iniciar Seción</button></a><!--Iniciar Secion-->
+                <a class="header__nav-link-registrer" href="#"> <button>REGISTRARSE</button></a><!--Registrate-->
             </nav>
-         </div> 
-         <div class="header__nav">
-            <a class="header__nav-singup" href="#">Registrate</a><!--Registrate-->
-         </div>               
+        </div>
     </header>
 
     <main class="main"><!--main-->
-        <div class="main__container-music"><!--parrafo-->
-            <h1 class="main__paragrhap">
-                Para empezar a disfrutar de la música solo tienes que elegir una oferta.
+        <div class="main__container"><!--parrafo-->
+            <h1 class="main__container-text">
+                Para empezar a escuchar, <br> elige un plan
             </h1>
-        </div>
+        </div>        
         <div class="container__exclamation"><!--signo de exclamacion en naranja y descripcion -->
             <img class="container__exclamation-img" src="imagenes de deezer/signo-de-exclamacion.png" alt="exclamacion">
             <h2 class="container__exclamation-text">     
@@ -44,18 +51,15 @@
         <div class="container__campaign"><!--imagen de campana y descripcion-->
             <img class="container__campaign-img" src="imagenes de deezer/campana.png" alt="campana">
             <h2 class="container__campaign-proof">
-                Una prueba sin estrés
+                <span>Una prueba sin estrés <br> Te lo recordaremos 7 días antes de que termine tu prueba.</span>
             </h2>
-            <h3 class="container__campaign-text">
-                Te lo recordaremos 7 días antes de que termine tu prueba.
-            </h3>
         </div>
 
-        <section class="container__premium"><!--caja de Premium-->
-            <h2 class="container__premium-text">
+        <section class="container__premium"><!--caja de Premium-->           
+            <ul class="container__premium-box"> 
+                <h2 class="container__premium-text">
                 Premium
-            </h2>
-            <ul class="container__premium-box">
+                </h2>
                 <li class="container__premium-box-text">
                     Selecciona y reproduce cualquier canción sin anuncios, descárgate tus favoritas y escúchalas sin conexión.
                 </li>
@@ -66,7 +70,7 @@
                     <button>PRUÉBALO GRATIS</button><!--Boton-->
                 </li>
                 <li class="container__premium-box-text-3">
-                    1 mes gratis <!--el cursor cambia a mano-->
+                    <h5 class="container__premium-text-h5">1 mes gratis</h5> <!--el cursor cambia a mano-->
                     luego, Arg$429,00/mes.
                 </li>
                 <li class="container_premium-box-text-4">
@@ -205,6 +209,7 @@
             Ofertas no vinculantes, podrás cancelar tu suscripción en cualquier momento. Estas ofertas solo están disponibles para los usuarios que no estén ni hayan estado suscritos a Deezer, que no se hayan beneficiado de ninguna promoción previa de Deezer y que no hayan disfrutado de una prueba gratuita de ninguna suscripción de Deezer en ningún momento. Estas ofertas no son acumulables con ninguna otra oferta. Solo es posible beneficiarse de estas ofertas una vez y son válidas para un solo usuario.
         </p>
     </section>
+
     <footer class="container__footer"><!--footer-->
         <section class="container__footer-section">
             <button class="container__footer-botton-apple">
@@ -222,139 +227,72 @@
         <div class="container__colum">
             <ul  class="container__colum-one">
                 <li  class="container__colum-one-d">
-                    <a href="#">Deezer</a>
-                </li>
-                <li  class="container__colum-one-r">
-                    <a href="#">Reseñas</a>
-                </li>  
-                <li  class="container__colum-one-D">
-                    <a href="#">Dispositivos</a>
-                </li>  
-                <li class="container__colum-one-O">
-                    <a href="#">Descargate la aplicacion para ordenador</a>
-                </li>  
-                <li class="container__colum-one-gift">
-                    <a href="#">Tarjeta de Regalo</a>
-                </li>  
-                <li class="container__colum-one-help">
-                    <a href="#">Ayuda</a>
-                </li>  
-                <li class="container__colum-one-opinions">
-                    <a href="#">Community y opiniones</a>
-                </li>  
-                <li class="container__colum-one-blog">
-                    <a href="#">Blog</a>
-                </li>          
+                    <a href="#">Deezer</a><br> 
+                    <a href="#">Reseñas</a><br>
+                    <a href="#">Dispositivos</a><br>
+                    <a href="#">Descargate la aplicacion para ordenador</a><br>
+                    <a href="#">Tarjeta de Regalo</a><br>
+                    <a href="#">Ayuda</a><br>
+                    <a href="#">Community y opiniones</a><br>
+                    <a href="#">Blog</a><br>  
+                </li>       
             </ul>
         </div>
-        <div class="container__colum-one">
+        <div class="container__colum-two">
             <ul class="container__colum-one-ul">
                 <li class="container__colum-Caracteristic">
-                    <a href="#">Caracteristicas</a>
+                    <a href="#">Caracteristicas</a><br>
+                    <a href="#">Flow</a><br>
+                    <a href="#">Identifica Canciones</a><br>
+                    <a href="#">Transfiere tu biblioteca</a><br>
+                    <a href="#">Letras</a><br>
+                    <a href="#">Reproduccion sin conexion</a><br>
+                    <a href="#">Alta fidelidad(Hi-FI)</a><br>
                 </li>
-                <li class="container__colum-flow">
-                    <a href="#">Flow</a>
-                </li>  
-                <li class="container__colum-id">
-                    <a href="#">Identifica Canciones</a>
-                </li>  
-                <li class="container__colum-trasnf">
-                    <a href="#">Transfiere tu biblioteca</a>
-                </li>  
-                <li class="container__colum-letters">
-                    <a href="#">Letras</a>
-                </li>  
-                <li class="container__colum-off">
-                    <a href="#">Reproduccion sin conexion</a>
-                </li>  
-                <li class="container__colum-hifi">
-                    <a href="#">Alta fidelidad(Hi-FI)</a>
-                </li>         
             </ul>
         </div>
         <div class="container__colum-exploring">
             <ul class="container__colum-ul">
                 <li class="container__colum-ul-exploring">
-                    <a href="#">Explorar</a>
-                </li>
-                <li class="container__colum-ul-charts">
-                    <a href="#">Charts</a>
-                </li>  
-                <li class="container__colum-ul-launch">
-                    <a href="#">Lanzamiento más popular</a>
-                </li>  
-                <li class="container__colum-ul-new">
-                    <a href="#">Nuevos lanzamientos</a>
-                </li>  
-                <li class="container__colum-ul-radios">
-                    <a href="#">Radios</a>
-                </li>  
-                <li class="container__colum-ul-pod">
-                    <a href="#">Podcast</a>
-                </li>  
-                <li class="container__colum-ul-moments">
-                    <a href="#">Musica para todos los momentos</a>
-                </li>  
-                <li class="container__colum-ul-zen">
-                    <a href="#">Zen by Deezer</a>
-                </li>          
+                    <a href="#">Explorar</a><br>
+                    <a href="#">Charts</a><br>
+                    <a href="#">Lanzamiento más popular</a><br>
+                    <a href="#">Nuevos lanzamientos</a><br>
+                    <a href="#">Radios</a><br>
+                    <a href="#">Podcast</a><br>
+                    <a href="#">Musica para todos los momentos</a><br>
+                    <a href="#">Zen by Deezer</a><br>
+                </li>        
             </ul>
         </div>
         <div class="container__colum-three">
             <ul class="container__colum-three-ul">
                 <li class="container__colum-three-who">
-                    <a href="#">¿Quienes Somos?</a>
-                </li>
-                <li class="container__colum-three-inv">
-                    <a href="#">Inversores</a>
-                </li>  
-                <li class="container__colum-three-brand">
-                    <a href="#">Brand Partership</a>
-                </li>  
-                <li class="container__colum-three-musicians">
-                    <a href="#">Músicos y podcasters</a>
-                </li>  
-                <li class="container__colum-three-devs">
-                    <a href="#">Desarrolladores</a>
-                </li>  
-                <li class="container__colum-three-press">
-                    <a href="#">Prensa</a>
-                </li>  
-                <li class="container__colum-three-jobs">
-                    <a href="#">Ofertas de empleo</a>
-                </li>          
+                    <a href="#">¿Quienes Somos?</a><br>
+                    <a href="#">Inversores</a><br>
+                    <a href="#">Brand Partership</a><br>
+                    <a href="#">Músicos y podcasters</a><br>
+                    <a href="#">Desarrolladores</a><br>
+                    <a href="#">Prensa</a><br>
+                    <a href="#">Ofertas de empleo</a><br>
+                </li>       
             </ul>
         </div>
         <div class="container__colum-four">
             <ul class="container__colum-four-ul">
-                <li>
-                    <a href="#">Legal</a>
-                </li>
-                <li>
-                    <a href="#">Condiciones generales de uso</a>
-                </li>  
-                <li>
-                    <a href="#">Politica de Privacidad</a>
-                </li>  
-                <li>
-                    <a href="#">Cookies</a>
-                </li>  
-                <li>
-                    <a href="#">Open Sources Software Report(EN)</a>
-                </li>  
-                <li>
-                    <a href="#">Vulnerabilities Disclosure Privacy (EN)</a>
-                </li>  
-                <li>
-                    <a href="#">Digital Services Act</a>
+                <li class="container__colum-legal">
+                    <a href="#">Legal</a><br>
+                    <a href="#">Condiciones generales de uso</a><br>
+                    <a href="#">Politica de Privacidad</a><br>
+                    <a href="#">Cookies</a><br>
+                    <a href="#">Open Sources Software Report(EN)</a><br>
+                    <a href="#">Vulnerabilities Disclosure Privacy (EN)</a><br>
+                    <a href="#">Digital Services Act</a>br
                 </li>         
             </ul>
         </div>
         <div class="container__socialmedia">
-            <a href="#"><img src="./imagenes de deezer/facebook.png" alt="./imagenes de deezer/facebook.png"></a> 
-            <a href="#"><img src="./imagenes de deezer/twiteer.png" alt="./imagenes de deezer/twiteer.png"></a> 
-            <a href="#"><img src="./imagenes de deezer/instagram.png" alt="./imagenes de deezer/instagram.png"></a> 
-            <a href="#"><img src="./imagenes de deezer/youtube.png" alt="./imagenes de deezer/youtube.png"></a>
+            
         </div>
         <div class="container__socialmedia-img">
             <img class="container__socialmedia-logo" src="./imagenes de deezer/dezzerlogo.png" alt="./imagenes de deezer/dezzerlogo.png">
